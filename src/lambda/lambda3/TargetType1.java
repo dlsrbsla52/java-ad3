@@ -1,0 +1,29 @@
+package lambda.lambda3;
+
+public class TargetType1 {
+
+    static void main() {
+        // 람다 직접 대입 : 문제 없음
+        FunctionA functionA = i -> "value = "+i;
+        System.out.println("functionA.apply = " + functionA.apply(10));
+
+        FunctionB functionB = i -> "value = "+i;
+        System.out.println("functionB.apply = " + functionB.apply(10));
+        
+        
+        // 이미 만들어진 FunctionA 인스턴스를 FunctionB에 대입:
+        // FunctionB targetB = FunctionA; // 컴파일 에러 발생
+        
+        
+    }
+    
+    @FunctionalInterface
+    interface FunctionA {
+        String apply(Integer i);
+    }
+    
+    @FunctionalInterface
+    interface FunctionB {
+        String apply(Integer i);
+    }
+}
