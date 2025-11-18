@@ -1,10 +1,9 @@
-package Optional;
+package optional;
 
-import Optional.model.Address;
-import Optional.model.User;
+import optional.model.Address;
+import optional.model.User;
 
 import java.util.Optional;
-import java.util.logging.XMLFormatter;
 
 public class AddressMain2 {
 

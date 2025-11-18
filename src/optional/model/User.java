@@ -1,6 +1,4 @@
-package Optional.model;
-
-import java.lang.foreign.AddressLayout;
+package optional.model;
 
 public class User {
     private String name;

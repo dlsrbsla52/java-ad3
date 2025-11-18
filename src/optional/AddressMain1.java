@@ -1,7 +1,7 @@
-package Optional;
+package optional;
 
-import Optional.model.Address;
-import Optional.model.User;
+import optional.model.Address;
+import optional.model.User;
 
 public class AddressMain1 {
 

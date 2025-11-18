@@ -1,7 +1,7 @@
-package Optional;
+package optional;
 
-import Optional.model.Delivery;
-import Optional.model.Order;
+import optional.model.Delivery;
+import optional.model.Order;
 
 import java.util.HashMap;
 import java.util.Map;

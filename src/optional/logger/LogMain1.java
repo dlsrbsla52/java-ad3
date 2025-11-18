@@ -1,4 +1,4 @@
-package Optional.logger;
+package optional.logger;
 
 public class LogMain1 {
     static void main() {

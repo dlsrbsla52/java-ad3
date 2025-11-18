@@ -1,4 +1,4 @@
-package Optional.logger;
+package optional.logger;
 
 import java.util.function.Supplier;
 

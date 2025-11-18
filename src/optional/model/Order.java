@@ -1,4 +1,4 @@
-package Optional.model;
+package optional.model;
 
 public class Order {
     private Long id;
